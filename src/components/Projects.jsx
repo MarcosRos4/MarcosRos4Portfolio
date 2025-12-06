@@ -6,13 +6,13 @@ import { useEffect } from "react";
 const projects = [
   {
     id: 1,
-    title: "NexaPanel - Dashboard Web Design",
+    title: "Softude - Website Landing Page",
     description:
-      "A Next.js-powered admin dashboard designed for seamless business insights and control.",
-    image: "/Projects/NexaPanel.png",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
-    url: "#",
-    git: "#",
+      "Softude is a global IT & digital-services company that offers enterprise-level solutions such as web and mobile app development, digital transformation, AI & cloud services, ",
+    image: "/Projects/Softude.png",
+    tags: ["React.js", "Framer Motion", "TailwindCSS", "Vite"],
+    url: "https://softude.netlify.app/",
+    git: "https://github.com/abhicodes01/Softude_Redesign_LandingPage",
   },
 
   {
@@ -26,20 +26,20 @@ const projects = [
       "MongoDB",
       "Express.js",
       "PostMan",
-      "Tailwind CSS",
-      "React",
+      "TailwindCSS",
+      "React.js",
     ],
     url: "#",
     git: "#",
   },
 
   {
-    id: 5,
+    id: 3,
     title: "VirtualR - Developer Tools Website",
     description:
       "A dynamic and responsive virtual reality showcase built with React, featuring sleek UI and interactive components.",
     image: "/Projects/VirtualR.png",
-    tags: ["Javascript", "Tailwind CSS", "React", "Vite.js"],
+    tags: ["Javascript", "TailwindCSS", "React.js", "Vite"],
     url: "https://virtualr-react.netlify.app/",
     git: "#",
   },
@@ -51,8 +51,8 @@ const projects = [
       "Jarvis listens to voice commands, responds in real-time with speech output, and features a dynamic 3D animated interface for an immersive experience.",
     image: "/Projects/Jarvis.png",
     tags: [
-      "React",
-      "Tailwind CSS",
+      "React.js",
+      "TailwindCSS",
       "Three.js",
       "Gemini API",
       "SpeechRecognition",
@@ -62,14 +62,14 @@ const projects = [
   },
 
   {
-    id: 3,
-    title: "HR Email Automation",
+    id: 5,
+    title: "SynergyTop - Website Landing Page",
     description:
-      "An AI-powered Node.js automation tool that uses Gemini AI to generate and send personalized HR outreach emails directly from Excel.",
-    image: "/Projects/EmailAutomation.png",
-    tags: ["Javascript", "Node.js", "Gen API", "Nodemailer", "xlsx"],
-    url: "#",
-    git: "https://github.com/abhicodes01/AI-HR-EmailAutomation",
+      "SynergyTop is presented as a full-service IT agency offering services such as custom software development, web development, eCommerce & mobile-app development",
+    image: "/Projects/SynergyTop.png",
+    tags: ["React.js", "TailwindCSS", "Framer Motion", "Vite"],
+    url: "https://synergytop.netlify.app/",
+    git: "https://github.com/abhicodes01/StrategyTop_Redesign_LandingPage",
   },
 ];
 
