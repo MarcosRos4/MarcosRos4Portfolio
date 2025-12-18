@@ -6,71 +6,42 @@ import { useEffect } from "react";
 const projects = [
   {
     id: 1,
-    title: "Softude - Website Landing Page",
+    title: "Truedamage",
     description:
-      "Softude is a global IT & digital-services company that offers enterprise-level solutions such as web and mobile app development, digital transformation, AI & cloud services, ",
-    image: "/Projects/Softude.png",
-    tags: ["React.js", "Framer Motion", "TailwindCSS", "Vite"],
-    url: "https://softude.netlify.app/",
-    git: "https://github.com/abhicodes01/Softude_Redesign_LandingPage",
+      "Um site de anúncio de shows de uma banda fictícia, inspirado pelo site original do Lucas Inutilismo (https://inutilismo.com.br/)",
+    image: "/Projects/truedamage.jpg",
+    tags: ["React.js", "Supabase", "Vite", "Node.js"],
+    url: "https://truedamage.marcosros4.com.br",
+    git: "https://github.com/MarcosRos4/truedamage",
   },
 
   {
     id: 2,
-    title: "Mech2Door",
+    title: "Netflix Clone",
     description:
-      "A full-stack MERN web app connecting users with verified local mechanics, featuring real-time booking, admin verification, and secure authentication for trusted on-demand service.",
-    image: "/Projects/Mech2Door.png",
+      "Só mais um clone da Netflix, consumindo a api da TMDB (The Movie DataBase)",
+    image: "/Projects/netflixclone.jpg",
     tags: [
-      "Node.js",
-      "MongoDB",
-      "Express.js",
-      "PostMan",
-      "TailwindCSS",
-      "React.js",
+      "React Native",
+      "Expo",
+      "TMDB",
+      "Vite",
+      "Node.js"
     ],
-    url: "#",
-    git: "#",
+    url: "https://netflixclone.marcosros4.com.br/",
+    git: "https://github.com/MarcosRos4/Netflix-React-Native-Clone",
   },
 
   {
     id: 3,
-    title: "VirtualR - Developer Tools Website",
+    title: "The Bear Bar",
     description:
-      "A dynamic and responsive virtual reality showcase built with React, featuring sleek UI and interactive components.",
-    image: "/Projects/VirtualR.png",
-    tags: ["Javascript", "TailwindCSS", "React.js", "Vite"],
-    url: "https://virtualr-react.netlify.app/",
-    git: "#",
-  },
-
-  {
-    id: 4,
-    title: "Jarvis - AI Personal Assistant",
-    description:
-      "Jarvis listens to voice commands, responds in real-time with speech output, and features a dynamic 3D animated interface for an immersive experience.",
-    image: "/Projects/Jarvis.png",
-    tags: [
-      "React.js",
-      "TailwindCSS",
-      "Three.js",
-      "Gemini API",
-      "SpeechRecognition",
-    ],
-    url: "#",
-    git: "https://github.com/abhicodes01/voice-assistant-jarvis",
-  },
-
-  {
-    id: 5,
-    title: "SynergyTop - Website Landing Page",
-    description:
-      "SynergyTop is presented as a full-service IT agency offering services such as custom software development, web development, eCommerce & mobile-app development",
-    image: "/Projects/SynergyTop.png",
-    tags: ["React.js", "TailwindCSS", "Framer Motion", "Vite"],
-    url: "https://synergytop.netlify.app/",
-    git: "https://github.com/abhicodes01/StrategyTop_Redesign_LandingPage",
-  },
+      "Site de bar com cardápio, nome inspirado na série The Bear. Usa uma API Rest própria que está em cold start",
+    image: "/Projects/thebearbar.jpg",
+    tags: ["Angular", "TypeScript", "Node.js", "API Rest", "SpringBoot"],
+    url: "https://thebearbar.marcosros4.com.br/",
+    git: "https://github.com/MarcosRos4/TheBearBarAngular",
+  }
 ];
 
 export const Projects = () => {
@@ -85,14 +56,16 @@ export const Projects = () => {
     <section id="projects" className="py-24 px-4 relative">
       <div data-aos="fade-up" className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Featured <span className="text-primary">Projects</span>
+          Meus <span className="text-primary">Projetinhos</span>
         </h2>
 
-        <p className="txet-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          These projects reflect my approach to writing clean, maintainable code
-          and building user-friendly interfaces. I’ve focused on practical
-          solutions that balance performance, usability, and reliability.
+        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+          Nenhum deles é muito sério, mas todos foram divertidos de fazer<br></br>
+          Principalmente os que fiz com meus bons amigos Ivo, Thomas e Matulis
         </p>
+
+        
+
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, key) => (
@@ -131,11 +104,13 @@ export const Projects = () => {
                     rel="noopener noreferrer"
                     className="cosmic-button text-xs text-muted-foreground font-semibold flex gap-1"
                   >
-                    Live Link <ArrowUpRight size={16} />
+                    Acesse <ArrowUpRight size={16} />
                   </a>
 
                   <a
                     href={project.git}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-foreground hover:text-primary transition-colors duration-300"
                   >
                     <Github />
@@ -152,7 +127,7 @@ export const Projects = () => {
             href="https://github.com/abhicodes01"
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
           >
-            Check My Github <ArrowRight size={16} />
+            Olha meu Github <ArrowRight size={16} />
           </a>
         </div>
       </div>

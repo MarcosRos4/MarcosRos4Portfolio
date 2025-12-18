@@ -1,10 +1,8 @@
-import React from 'react'
 import { ThemeToggle } from '../components/ThemeToggle'
 import { StarBackground } from '../components/StarBackground'
 import { Navbar } from '../components/Navbar'
 import { HeroSection } from '../components/HeroSection'
 import { AboutMe } from '../components/AboutMe'
-import { SkillsSection } from '../components/SkillsSection'
 import { Projects } from '../components/Projects'
 import { ContactMe } from '../components/ContactMe'
 import { Footer } from '../components/Footer'
@@ -23,7 +21,6 @@ const Home = () => {
         <main>
           <HeroSection/>
           <AboutMe/>
-          <SkillsSection/>
           <Projects/>
           <ContactMe/>
         </main>

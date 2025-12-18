@@ -4,10 +4,9 @@ import { Menu, X } from "lucide-react";
 
 const navItems = [
     {name: 'Home', url: '#home'},
-    {name: 'About', url: '#about'},
-    {name: 'Skills', url: '#skills'},
-    {name: 'Projects', url: '#projects'},
-    {name: 'Contact', url: '#contact'},
+    {name: 'Sobre', url: '#about'},
+    {name: 'Projetos', url: '#projects'},
+    {name: 'Entre em Contato', url: '#contact'},
 ];
 
 export const Navbar = () => {
@@ -30,7 +29,7 @@ export const Navbar = () => {
         <div className="container flex items-center justify-between md:justify-around">
             <a className="font-bold text-xl text-primary flex items-center" href="#home">
                 <span className="relative z-10">
-                    <span className="text-glow text-foreground">Abhijeet</span> Portfolio
+                    <span className="text-glow text-foreground">MarcosRos4</span> Portfolio
                 </span>
             </a>
 
